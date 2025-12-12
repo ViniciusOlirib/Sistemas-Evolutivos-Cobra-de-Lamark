@@ -136,3 +136,11 @@ Durante o processo evolutivo, o comportamento dos agentes melhora progressivamen
 
 ---
 
+## Autores
+
+- Eduardo Henrique Wenceslau Santana — N° USP: 15448734
+- Pedro Henrique Vieira de Freitas — N° USP: 15652829
+- Tiago Yuzo Yoshida Simão — N° USP: 15642202
+- Vinicius de Oliveira Ribeiro — N° USP: 15498122
+
+
