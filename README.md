@@ -87,3 +87,52 @@ Dois tipos de ruído Gaussiano são aplicados:
 
 ## Estrutura dos Arquivos
 
+├── cuda_agent.py # Loop principal, multiprocessamento e lógica dos agentes
+├── model.py # Rede Neural (Linear_QNet) e QTrainer
+├── snake_game.py # Implementação do jogo (Pygame)
+└── evo_syst.py # Lógica do Algoritmo Genético
+
+---
+
+## Como Executar
+
+### Pré-requisitos
+- Python 3.x  
+- PyTorch  
+- Pygame  
+- (Opcional, recomendado) GPU com CUDA
+
+### Rodando o treinamento
+bash
+python cuda_agent.py
+
+## Resultados Esperados
+
+Durante o processo evolutivo, o comportamento dos agentes melhora progressivamente conforme aprendem tanto via **Reinforcement Learning** quanto pela **seleção genética**.
+
+### Gerações Iniciais
+- Movimento caótico e predominantemente aleatório.  
+- Morte rápida devido a colisões frequentes.  
+- Primeiros sinais de aprendizado: começam a evitar paredes.
+
+### Gerações Intermediárias
+- A cobra passa a navegar o mapa com mais intencionalidade.  
+- Aprende a **buscar ativamente a comida**.  
+- Diminuição de comportamentos cíclicos que levam à morte.  
+- Aumenta o número médio de maçãs coletadas por vida.
+
+### Gerações Avançadas
+- Estratégias sofisticadas emergem espontaneamente:
+  - Evitação de se prender em espaços pequenos.
+  - Rotas mais curtas e eficientes até a comida.
+  - Controle superior do espaço e do próprio corpo.
+- Melhores agentes começam a alcançar *scores* elevados de forma consistente.
+
+### Consolidação do Comportamento
+- O sistema híbrido permite que:
+  - O **DQN** aprenda padrões durante a vida de cada agente.  
+  - O **GA** refine populações inteiras entre gerações.  
+- A combinação dos dois resulta em um comportamento robusto, adaptativo e altamente otimizado.
+
+---
+
