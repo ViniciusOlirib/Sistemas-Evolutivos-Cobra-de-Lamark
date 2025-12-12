@@ -25,7 +25,7 @@ O objetivo principal do agente é coletar o máximo de maçãs possível sem col
 
 ## Arquitetura da Rede Neural (Linear_QNet)
 
-A “mente” de cada agente é uma rede neural feedforward construída com PyTorch.
+Cada agente é uma rede neural feedforward construída com PyTorch.
 
 ### **Entradas (Estado – 11 neurônios)**  
 Valores binários representando o estado atual da cobra:
