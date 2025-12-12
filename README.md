@@ -10,7 +10,7 @@ A solução combina **Reinforcement Learning (Deep Q-Learning)** para aprendizad
 
 O objetivo principal do agente é coletar o máximo de maçãs possível sem colidir com as paredes ou com o próprio corpo.
 
-Diferente de abordagens tradicionais que aplicam apenas uma técnica, este projeto explora a **sinergia entre aprendizado por reforço e evolução biológica simulada**.
+ Este projeto explora a **sinergia entre aprendizado por reforço e evolução biológica simulada**, para que os agentes desenvolvam formas diferentes de convergência.
 
 ---
 
@@ -55,7 +55,7 @@ O agente escolhe entre:
 
 ---
 
-## Metodologia Evolutiva (GA + RL)
+## Metodologia Evolutiva
 
 O treinamento ocorre em **gerações de 20 agentes**.
 
