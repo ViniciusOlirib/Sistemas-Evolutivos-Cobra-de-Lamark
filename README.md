@@ -1,8 +1,6 @@
 # Sistemas-Evolutivos-Cobra-de-Lamark
 Repositório referente ao projeto da disciplina Sistemas Evolutivos Aplicados à Robótica - SSC0713 ministrada pelo professor Eduardo do Valle Simões.
 
-# Snake Game AI – Sistema Evolutivo Híbrido (Reinforcement Learning + Genetic Algorithm)
-
 Este projeto implementa um agente autônomo capaz de aprender a jogar o clássico **Snake Game** utilizando uma abordagem híbrida de Inteligência Artificial.  
 A solução combina **Reinforcement Learning (Deep Q-Learning)** para aprendizado intra-vida e **Algoritmos Genéticos (GA)** para evolução entre gerações.
 
