@@ -87,10 +87,10 @@ Dois tipos de ruído Gaussiano são aplicados:
 
 ## Estrutura dos Arquivos
 
--├── cuda_agent.py # Loop principal, multiprocessamento e lógica dos agentes
--├── model.py # Rede Neural (Linear_QNet) e QTrainer
--├── snake_game.py # Implementação do jogo (Pygame)
--└── evo_syst.py # Lógica do Algoritmo Genético
+- cuda_agent.py # Loop principal, multiprocessamento e lógica dos agentes
+- model.py # Rede Neural (Linear_QNet) e QTrainer
+- snake_game.py # Implementação do jogo (Pygame)
+- evo_syst.py # Lógica do Algoritmo Genético
 
 ---
 
