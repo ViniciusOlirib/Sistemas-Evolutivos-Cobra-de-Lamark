@@ -103,9 +103,9 @@ Dois tipos de ruído Gaussiano são aplicados:
 - (Opcional, recomendado) GPU com CUDA
 
 ### Rodando o treinamento
-bash
+```bash
 python cuda_agent.py
-
+````
 ## Resultados Esperados
 
 Durante o processo evolutivo, o comportamento dos agentes melhora progressivamente conforme aprendem tanto via **Reinforcement Learning** quanto pela **seleção genética**.
